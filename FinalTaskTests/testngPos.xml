@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Positive Tests">
+    <test name="Testing The search function">
+        <classes>
+            <class name="SearchResultTest"></class>
+        </classes>
+    </test>
+    <test name="Add to cart tests">
+        <classes>
+            <class name="AddToCartTest"></class>
+
+        </classes>
+    </test>
+    <test name="Changing cart tests">
+        <classes>
+            <class name="CartSettingsTests"></class>
+        </classes>
+    </test>
+    <test name="Change Currency Tests">
+        <classes>
+            <class name="ChangeCurrencyTest"></class>
+        </classes>
+    </test>
+</suite>
